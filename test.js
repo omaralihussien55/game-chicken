@@ -332,47 +332,6 @@ addEventListener("keyup",function({keyCode}){
     }
     
 })
-// addEventListener("mousedown")ss
-
-dirction.forEach(function(i){
-// i.addEventListener("mouseenter",function(e){
-
-// let id = e.target.dataset.id
-
-// switch(id){
-//     case 'left' :
-//         keys.left.pressed = true
-//         break;
-//     case  'right' :
-//         keys.right.pressed = true
-//         break;
-
-// }
-// })
-
-i.addEventListener("mousemove",function(e){
-    let id = e.target.dataset.id
-  
-    switch(id){
-        case 'left' :
-            
-            if(player.position.x <=0){
-
-            }else{
-                player.position.x += -12
-            }
-            break;
-        case  'right' :
-         if(player.position.x >= canvas.width - player.width){
-
-         }else{
-            player.position.x += 12
-         }
-            break;
-    
-    }
-})
-})
 
 
 
